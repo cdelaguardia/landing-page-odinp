@@ -142,6 +142,16 @@ h1{
     font-size: 25px;
     font-weight: bold;
 }
-
 /*************************************************************/
 
+/*****Footer components style********************************/
+
+.footer{
+    display: flex;
+    background-color: rgb(153, 26, 48);
+    padding: 10px;
+    color: white;
+    justify-content: center;
+}
+
+/*************************************************************/
