@@ -94,7 +94,54 @@ h1{
 }
 /**************************************************************/
 
+/*****Opinion components style********************************/
+.opinion{
+    background-color: pink;
+    padding: 55px; 
+    color: #ad6322;
+    font-size: 36px;  
+    font-style: italic;
+}
 
+.client{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 900px;
+}
 
+/**************************************************************/
 
+/*****Action components style********************************/
+.action{
+    display: flex;
+    height: 100px;
+    padding: 40px;
+    background-color: rgb(247, 230, 232);
+}
+
+.action .content{
+    display: flex   ;
+    background-color: pink;
+    flex: 1 1 auto;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    color: #ad6322;  
+}
+
+.content-right input{
+    border-color: white;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: pink;
+    width: 100px;
+}
+
+.content-left .title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*************************************************************/
 
