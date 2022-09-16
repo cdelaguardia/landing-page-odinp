@@ -7,13 +7,11 @@ body{
 /****** Header components style**********************************/
 .header{
     background-color: pink;
-    padding: 15px;
-    
+    padding: 15px;   
 }
 
 .header-up, .header-down{
     display: flex;
-    
     margin: 0  100px;
     justify-content: space-between;
     color: #ad6322;
@@ -21,13 +19,12 @@ body{
 
 .header-up img{
     width: 100px; 
-     
 }
 
 ul{
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     font-size: 18px;
 }
 
@@ -38,7 +35,6 @@ ul{
 .header-down img{
     width:350px; 
     border-radius: 30px;
-     
 }
 
 h1{
@@ -48,13 +44,14 @@ h1{
 
 .header-left p{
     font-size: 18px;
-
 }
 
 .header-left input{
     color:#502b0b;
     background-color: pink;
     border-radius: 5px;
+    border-color: #502b0b;
+    font-weight: bold;
 }
 
 /**************************************************************/
