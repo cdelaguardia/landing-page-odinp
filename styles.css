@@ -35,7 +35,7 @@ ul{
 .header-down img{
     width:350px; 
     border-radius: 30px;
-}
+   }
 
 h1{
     font-size: 48px;
@@ -56,6 +56,43 @@ h1{
 
 /**************************************************************/
 
+/*****Middle components style********************************/
+.middle{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 230, 232);
+}
+
+.middle .top{
+    justify-content: center;
+    align-self: center;
+    margin: 25px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: palevioletred;
+}
+
+.down{
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+.item img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    color: rgb(163, 10, 61);
+   
+}
+/**************************************************************/
 
 
 
